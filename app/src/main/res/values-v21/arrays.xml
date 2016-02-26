@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_order_options">
+        <item>@string/pref_order_label_popular</item>
+        <item>@string/pref_order_label_rating</item>
+    </string-array>
+
+    <string-array name="pref_order_values">
+        <item>@string/pref_order_popular</item>
+        <item>@string/pref_order_rating</item>
+    </string-array>
+    <string name="pref_order_label_popular">Most popular</string>
+    <string name="pref_order_label_rating">Highest-rated</string>
+    <string name="pref_order_popular">popular</string>
+    <string name="pref_order_rating">top_rated</string>
+</resources>

@@ -1,0 +1,24 @@
+<resources>
+
+
+    <string name="api_key">YOUR_API_KEY</string>
+    <string name="app_name">MovieMuse</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Sort</string>
+    <string name="hello_blank_fragment">Blank fragment</string>
+    <string name="title_activity_detail">Movie Info</string>
+    <string name="serializable_movie">serializable</string>
+    <string name="ui_title">Title</string>
+    <string name="ui_poster_string">Movie Poster</string>
+    <string name="mock_release_date">2015</string>
+    <string name="rating_label"> Average Rating</string>
+    <string name="mock_rating">3/10</string>
+    <string name="mock_plot_synopsis">Movie Detail</string>
+    <string name="sort_by_label">Sort order</string>
+    <string name="sort_order_key">order</string>
+    <string name="order_def_value">popular</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_offline">OfflineActivity</string>
+
+
+</resources>

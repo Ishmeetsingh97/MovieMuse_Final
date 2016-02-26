@@ -1,0 +1,97 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none" >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <TextView
+            android:layout_width="1000dp"
+            android:layout_height="50dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/ui_title"
+            android:id="@+id/movie_title"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#333"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:elevation="10dp"
+            />
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/poster"
+
+            android:src="@drawable/offline"
+            android:contentDescription="@string/ui_poster_string"
+            android:layout_below="@+id/movie_title"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="2015"
+            android:id="@+id/release_date"
+            android:layout_below="@+id/textView2"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignStart="@+id/textView2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/rating_label"
+            android:id="@+id/vote_label"
+            android:layout_marginTop="44dp"
+            android:layout_alignTop="@+id/poster"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignStart="@+id/textView2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/mock_rating"
+            android:id="@+id/rating"
+            android:layout_below="@+id/vote_label"
+            android:layout_alignLeft="@+id/vote_label"
+            android:layout_alignStart="@+id/vote_label" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Greatest App of all Time and this is a long long paragraph.Greatest App of all Time and this is a long long paragraph.Greatest App of all Time and this is a long long paragraph"
+            android:id="@+id/plot_synopsis"
+            android:layout_below="@+id/poster"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Release Year"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/rating"
+            android:layout_toRightOf="@+id/poster"
+            android:layout_toEndOf="@+id/poster"
+            android:layout_marginTop="33dp" />
+
+    </RelativeLayout>
+</ScrollView>
